@@ -1,0 +1,19 @@
+{
+  "name": "currconv",
+  "version": "1.0.0",
+  "description": "a currency converter using two apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "keywords": [
+    "currconv"
+  ],
+  "author": "EmmyB",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "nodemon": "^1.19.1"
+  }
+}
